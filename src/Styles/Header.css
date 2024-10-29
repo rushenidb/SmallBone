@@ -90,3 +90,60 @@ body {
     margin: 0;
     height: fit-content;
  }  
+
+
+ /* Mobile Responsive Adjustments */
+@media (max-width: 768px) {
+    /* Reduce padding for smaller screens */
+    .header {
+        padding: 10px 20px;
+        height: auto; /* Allow flexible height */
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-left,
+    .nav-right {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        padding: 5px 0;
+    }
+
+    .nav-middle {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .logo-text {
+        font-size: 24px;
+    }
+
+    .nav-right .nav-button {
+        font-size: 12px;
+        padding: 8px 12px;
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Further adjustments for very small screens */
+    .nav-left .menu-icon,
+    .nav-left .home-button,
+    .logo-text {
+        font-size: 14px;
+    }
+
+    .logo-image {
+        width: 40px;
+    }
+
+    .nav-right .nav-button {
+        font-size: 10px;
+        padding: 6px 8px;
+        margin-left: 5px;
+    }
+}

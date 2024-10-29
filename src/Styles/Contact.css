@@ -290,3 +290,62 @@
 }
 
 
+/* Media Queries for Mobile Responsiveness */
+@media (max-width: 768px) {
+  .contact-us {
+    padding: 20px; /* Reduced padding for mobile */
+    margin-top: 100px; /* Reduced top margin */
+  }
+
+  .contact-us h1 {
+    font-size: 2rem; /* Smaller heading */
+  }
+
+  .contact-section h2 {
+    font-size: 1.5rem; /* Smaller section heading */
+    margin-left: 0; /* Center align */
+  }
+
+  .contact-section p {
+    font-size: 0.9rem; /* Smaller text */
+  }
+
+  .design-meeting {
+    flex-direction: column; /* Stack sections vertically */
+    height: auto; /* Allow height to adjust */
+  }
+
+  .left-section, .right-section {
+    width: 100%; /* Full width on mobile */
+    padding: 10px; /* Reduced padding */
+    text-align: center; /* Center text */
+  }
+
+  .right-section h2 {
+    font-size: 1.5em; /* Smaller heading */
+    margin-top: 20px; /* Reduced top margin */
+  }
+
+  .right-section p {
+    font-size: 1em; /* Smaller paragraph */
+  }
+
+  .design-meeting-button, .career-btn {
+    width: 100%; /* Full width buttons */
+  }
+
+  .office-image img {
+    max-height: 60vh; /* Reduced max height on mobile */
+  }
+
+  .contact-item h3 {
+    font-size: 0.9em; /* Smaller contact item heading */
+  }
+
+  .contact-item p {
+    font-size: 0.9em; /* Smaller contact item text */
+  }
+
+}
+
+

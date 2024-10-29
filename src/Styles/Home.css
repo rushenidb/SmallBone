@@ -347,3 +347,94 @@ p{
   transform: translateY(0) rotateX(0);
 }
 
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .centered-text {
+      margin: 20px 10px; /* Adjust margin for smaller screens */
+      font-size: medium; /* Slightly increase font size for better readability */
+  }
+
+  .button-container {
+      margin: 10px 20px; /* Reduce margins for smaller screens */
+  }
+
+  .button-container button,
+  .button-container-new button {
+      padding: 8px 16px; /* Adjust button padding for smaller screens */
+      font-size: 14px; /* Reduce font size for buttons */
+  }
+
+  .slider-container {
+      margin: 20px auto; /* Reduce margin */
+  }
+
+  .section-image-right,
+  .section-image-left {
+    padding: 5px;
+      flex-direction: column; /* Stack images and text vertically */
+      align-items: center; /* Center-align the content */
+  }
+
+  .image-left,
+  .image-right {
+      width: 100%; /* Full width on smaller screens */
+  }
+
+  .text-left,
+  .text-right, .text-right-new {
+      width: 100%; /* Full width on smaller screens */
+      padding: 20px; /* Reduce padding */
+      text-align: center; /* Center text */
+  }
+
+  h1 {
+      font-size: 30px; /* Adjust heading size for smaller screens */
+  }
+
+  p {
+      padding-left: 10px; /* Reduce padding */
+      padding-right: 10px; /* Reduce padding */
+  }
+
+  .prev-arrow,
+  .next-arrow {
+      font-size: 16px; /* Smaller arrow size */
+  }
+
+  .btn-flip {
+      width: 150px; /* Adjust button width */
+  }
+}
+
+/* Smaller mobile devices */
+@media (max-width: 480px) {
+  h1 {
+      font-size: 24px; /* Further reduce heading size */
+  }
+
+  .button-container button,
+  .button-container-new button {
+      font-size: 12px; /* Further reduce button font size */
+  }
+
+  .slider-container {
+      margin: 10px auto; /* Further reduce margin */
+  }
+
+  .centered-text {
+      margin: 10px 5px; /* Reduce margin */
+      font-size: small; /* Adjust font size for mobile */
+  }
+
+  .text-left,
+  .text-right {
+      padding: 10px; /* Further reduce padding */
+  }
+
+  .prev-arrow,
+  .next-arrow {
+      padding: 8px 8px; /* Adjust arrow padding */
+  }
+}
