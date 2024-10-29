@@ -42,7 +42,7 @@ const Header = () => {
           <div className="nav-middle">
             {/* Add logo image next to the text */}
             <img src={logo} alt="Smallbone Logo" className="logo-image" />
-            <div className="logo-text">S M A L L B O N E</div>
+            <div className="logo-text">S M A L L B O </div>
           </div>
           <div className="nav-right">
             <a href="/contact">
