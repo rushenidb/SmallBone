@@ -1,8 +1,8 @@
 import React from 'react';
 import '../App.css';
-import Header from '../Components/Header';
+// import Header from '../Components/Header';
 import Home from './Home';
-import Footer from '../Components/Footer';
+// import Footer from '../Components/Footer';
 
 
 function IndexPage() {

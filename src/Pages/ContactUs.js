@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+// import React, { useState } from "react";
 import "../Styles/Contact.css";
 import contact1 from "../Images/contact1.jpg";
 import contact2 from "../Images/contact2.jpg";
@@ -6,24 +6,24 @@ import contact3 from "../Images/contact3.png";
 import contact4 from "../Images/contact4.jpg";
 
 export default function ContactUs() {
-  const [formData, setFormData] = useState({
-    firstName: "",
-    surname: "",
-    email: "",
-  });
+  // const [formData, setFormData] = useState({
+  //   firstName: "",
+  //   surname: "",
+  //   email: "",
+  // });
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData((prevState) => ({
-      ...prevState,
-      [name]: value,
-    }));
-  };
+  // const handleChange = (e) => {
+  //   const { name, value } = e.target;
+  //   setFormData((prevState) => ({
+  //     ...prevState,
+  //     [name]: value,
+  //   }));
+  // };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log("Form submitted:", formData);
-  };
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   console.log("Form submitted:", formData);
+  // };
 
   return (
     <div>
@@ -107,7 +107,7 @@ export default function ContactUs() {
         </div>
         <div className="left-section">
           <div className="office-image fadeIn2">
-            <img src={contact2} alt="Office Design" />
+            <img src={contact2}  alt ="leftside contact"/>
           </div>
         </div>
       </div>
@@ -122,7 +122,7 @@ export default function ContactUs() {
         </div>
         <div className="left-section">
           <div className="office-image fadeIn3">
-            <img src={contact3} alt="Office Design" />
+            <img src={contact3} alt ="rightside contact"/>
           </div>
         </div>
       </div>
@@ -130,7 +130,7 @@ export default function ContactUs() {
       <div className="design-meeting">
         <div className="left-section">
           <div className="office-image fadeIn4">
-            <img src={contact4} alt="Office Design" />
+            <img src={contact4} alt="Office Design3" />
           </div>
         </div>
         <div className="right-section">

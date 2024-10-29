@@ -28,7 +28,6 @@ export default function Home() {
   };
 
   
-
   return (
     <div className="home-container">
       <div className="video-banner">
@@ -70,13 +69,13 @@ export default function Home() {
           <p>We are delighted to announce, the renowned British chef and restaurateur as the new ambassador for Smallbone. Having built a reputation for his Michelin-starred restaurants and culinary expertise, Jason is the perfect fit to represent our brand as we both share a commitment to quality, British heritage, handcrafted creativity and innovation.</p>
         </div>
         <div className="image-right">
-          <img src={imageRight1} alt="Right side image" />
+          <img src={imageRight1} alt="jason" />
         </div>
       </div>
 
       <div className="section-image-left">
         <div className="image-left">
-          <img src={imageLeft1} alt="Left side image" />
+          <img src={imageLeft1} alt="ambassodor"  />
         </div>
         <div className="text-right">
             <h1> As an Ambassador </h1>
@@ -99,13 +98,13 @@ export default function Home() {
         </div>
         
         <div className="image-right">
-          <img src={imageRight2} alt="Right side image" />
+          <img src={imageRight2}  alt ="virtual show room tour"/>
         </div>
       </div>
 
       <div className="section-image-left">
           <div className="image-left">
-            <img src={imageLeft2} alt="Left side image" className='imageleft2' />
+            <img src={imageLeft2} alt ="home" className='imageleft2' />
           </div>
         <div className="text-right-new">
             <h1>A Smallbone Kitchen</h1>
@@ -130,8 +129,8 @@ export default function Home() {
         
         </div>
         <div className="imageright">
-          <img src={imageRight3} alt="Rightside image" className='normal-image'/>
-          <img src={imageRight3Hover} alt="Hover side image" className="hover-image" />
+          <img src={imageRight3} alt ="living room before" className='normal-image'/>
+          <img src={imageRight3Hover}  alt ="living room after" className="hover-image" />
         </div>
         
       </div>
