@@ -88,6 +88,5 @@ body.modal-open {
 /* Ensure body has enough content to scroll*/
 body {
     margin: 0;
-    /* padding-top: 140px; Push content down to make room for the fixed header  */
-    min-height: 200vh; /*Enough height to test scrolling */
+    height: fit-content;
  }  
