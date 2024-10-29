@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import IndexPage from "./Pages";
+import ContactUs from "./Pages/ContactUs";
+import Header from "./Components/Header";
+import Footer from "./Components/Footer";
+import BrochureRequest from "./Pages/BrochureRequest";
+import WholeHouseFurniture from "./Pages/WholeHouseFurniture";
+import OnlineShop from "./Pages/OnlineShop";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Header />
+      <Routes>
+        <Route path="/" element={<IndexPage />} />
+        <Route path="/contact" element={<ContactUs />} />
+        <Route path="/brochure-request" element={<BrochureRequest />} />
+        <Route path="/whole-house-funriture" element={<WholeHouseFurniture />} />
+        <Route path="/online-shop" element={<OnlineShop />} />
+      </Routes>
+      <Footer />
+    </BrowserRouter>
   );
 }
 

@@ -1,0 +1,105 @@
+.form-container {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+  /* border-radius: 0px; */
+  /* box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); */
+  margin-top: 250px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-weight:lighter;
+  margin-bottom:60px;
+}
+
+p{
+  text-align: center;
+  margin-bottom:50px;
+  font-family:inherit;
+
+}
+
+.form-group {
+  margin-bottom: 15px;
+  font-size: smaller;
+  color:#fff;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #fff;
+  font-size:smaller;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+  width: 100%;
+  padding: 6px;
+  margin-bottom: 1px;
+  border-radius: 0px;
+  border: none;
+  background-color: #222;
+  color: #fff;
+}
+
+.half-width {
+  display: inline-block;
+  width: 48%;
+}
+
+.half-width + .half-width {
+  margin-left: 4%;
+}
+
+input[type="submit"] {
+  background-color: black;
+  color: #fff;
+  padding: 10px 20px;
+  border-color: #fff;
+  border-radius: 0px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
+
+input[type="submit"]:hover {
+  color: #c9b8a7;
+  border-color: #c9b8a7;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox input {
+  margin-right: 10px;
+}
+
+.find-address-btn {
+  background-color:black;
+  color: #fff;
+  border-color: #fff;
+  padding: 10px 15px;
+  cursor: pointer;
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.find-address-btn:hover {
+  border-color: #c9b8a7;
+  color: #c9b8a7;
+}
+
+
+.privacy-policy-text {
+  color: #c9b8a7;
+}

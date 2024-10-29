@@ -1,0 +1,190 @@
+/* Footer Styles */
+.footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.footer-signup,
+.footer-trustpilot,
+.footer-social-media,
+.footer-links {
+    margin-bottom: 30px;
+}
+
+.footer-signup p {
+    padding-left: 28px;
+    margin-top: 34px;
+    margin-bottom: 0px;
+    font-size: 12px;
+}
+
+.footer-trustpilot p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+/* Styling the hr tag */
+.hr, hr {
+    border: none;
+    height: 1px;
+    background-color: gray;
+    margin: 20px 0;
+}
+
+/* Signup Text */
+.signup-text {
+    text-align: left;
+    color: #fff;
+    margin-right: 20px;
+    font-size: 0.5em;
+    font-family: inherit;
+}
+
+/* Form Styling */
+.footer-signup form {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+    width: 100%;
+}
+
+.footer-signup input[type="text"],
+.footer-signup input[type="email"],
+.footer-signup button {
+    padding: 8px;
+    border: none;
+    max-width: 200px; /* Limits the width to prevent overflow */
+}
+
+.footer-signup button {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    transition: all 0.3s ease;
+}
+
+.footer-signup button:hover {
+    color: #c8a974;
+    border-color: #c8a974;
+}
+
+/* Footer Links */
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    font-size: small;
+    color: rgba(145, 143, 143, 0.692);
+}
+
+.footer-links a {
+    color: rgba(145, 143, 143, 0.692);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #c8a974;
+}
+
+/* Social Media Icons */
+.footer-social-media a {
+    color: white;
+    font-size: 15px; /* Make icons smaller */
+    padding: 8px;
+    background-color: black; /* Icon background color */
+    border-radius: 50%;
+    display: inline-block;
+    transition: all 0.3s ease;
+    z-index: 10;
+}
+
+.footer-social-media a:hover {
+    color: #c8a974;
+}
+
+/* Trustpilot Section */
+.footer-trustpilot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    color: white;
+}
+
+.footer-trustpilot .excellent {
+    color: rgb(18, 172, 120); /* Word "Excellent" in green */
+    font-weight: bold;
+    font-size: medium;
+}
+
+.footer-trustpilot .trustpilot-logo {
+    color: rgb(18, 172, 120); /* Green star icon */
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-trustpilot .trustpilot-logo span {
+    color: white; /* Text "Trustpilot" in white */
+    margin-left: 5px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .footer-signup form {
+        flex-direction: column;
+    }
+    .signup-text {
+        padding-left: 30px;
+    }
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 2px;
+    background: transparent;
+    border: 1px solid #cfbd9e;
+    outline: none;
+    position: relative; /* Add this to position the SVG correctly */
+    overflow: hidden; /* Ensures no overflow */
+    transition: 1s ease-in-out;
+  }
+  
+  svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #f0e2e2;
+    stroke-dasharray: 150 450;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+  }
+  
+  .btn:hover {
+    background: none;
+  }
+  
+  .btn:hover     svg {
+    stroke-dashoffset: -480;
+  }
+  
+  .btn span {
+    color: white;
+    font-size: 12px;
+    font-weight: 100;
+    position: relative; /* Ensure the text is on top of the SVG */
+    z-index: 1; /* Set a higher z-index to ensure visibility */
+  }
+  
+

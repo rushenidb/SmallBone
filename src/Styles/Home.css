@@ -1,0 +1,349 @@
+.home-container {
+  width: 100%;
+  margin: 0 auto;
+  color: white; /* All text in white by default */
+}
+
+.video-banner video {
+  width: 100%;
+  height: 100vh; /* Video takes up the full viewport height */
+  object-fit: cover; /* Ensures the video covers the area without being stretched */
+}
+
+.centered-text {
+  text-align:center;
+  margin: 40px 20px; /* Added margin around the text */
+  font-size: small;
+  padding-top: 30px;
+  /* padding-bottom: 30px; */
+}
+
+.button-container {
+  text-align: center;
+  margin: 20px 40px; /* Added margin on all sides */
+  padding-bottom: 30px;
+  font-size:smaller;
+}
+
+.button-container button, .button-container-new button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: black;
+  color: white; /* Default text color is white */
+  border: 1px solid white; /* Border color is now white */
+  cursor: pointer;
+  transition: color 0.3s ease, border 0.3s ease; /* Transition for border and text color */
+}
+
+.button-container button:hover, .button-container-new button:hover {
+  color: #c8a974; /* Change text color to gold on hover */
+  border-color: #c8a974; /* Change border color to gold on hover */
+}
+
+.slider-container {
+  position: relative;
+  width: 100%;
+  margin: 40px auto;
+  overflow: hidden; /* Hides anything outside the slider container */
+}
+
+.slides {
+  display: flex;
+  transition: opacity 0.5s ease-in-out; /* Smooth fade-in transition */
+  will-change: opacity; /* Optimize for smoother animations */
+}
+
+
+.slider-container img {
+  min-width: 100%; /* Ensure each image fills the slider */
+  object-fit: cover; /* Ensure images cover the area without being stretched */
+}
+
+.prev-arrow, .next-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: none; /* Subtle background color */
+  color: #c8a974; /* Changed to gold */
+  border: none;
+  border-radius: 60px;
+  padding: 10px 10px;
+  font-size: 18px; /* Larger arrow size */
+  cursor: pointer;
+  z-index: 10; /* Make sure arrows are clickable */
+}
+
+.prev-arrow:hover, .next-arrow:hover {
+  background-color: none; /* Darker on hover for better visibility */
+}
+
+.prev-arrow {
+  left: 10px; /* Position from the left */
+}
+
+.next-arrow {
+  right: 10px; /* Position from the right */
+}
+
+.section-image-right,.section-imageright,
+.section-image-left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 40px 0;
+}
+
+.image-left, .image-right , .imageright{
+  width: 50%;
+}
+
+.image-left img, .image-right img, .imageright img {
+  width: 100%;
+  height: auto;
+}
+
+.text-left, .text-right, .text-right-new, .text-left-new {
+  width: 50%;
+  padding: 40px;
+  text-align: left;
+}
+
+.text-right {
+  text-align: left;
+}
+
+.text-right-new {
+  text-align: left;
+}
+
+.button-container-new {
+  text-align: left;
+  padding-left: 40px;
+  padding-top: 20px;
+}
+
+.slide-indicators {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.dash {
+  font-size: 20px;
+  margin: 0 5px;
+  color: #ccc;
+}
+
+.dash.active {
+  color: #c8a974; /* Active dash in gold */
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #e0d7c6;
+  font-family:"Chronicle Display A", "Chronicle Display B", Times, serif;
+  font-size: 40px;
+}
+
+p{
+  text-align: center;
+  color:#ffffff;
+  font-size:small;
+  font-weight: lighter;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: inherit;
+}
+/* 
+.imageright {
+  position: relative;
+  overflow: hidden; /* Ensure the glass effect is contained within the image 
+}
+
+.imageright img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;  Smooth scaling effect 
+}
+
+/* Glass effect 
+.imageright:hover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(124, 100, 95, 0.5); 
+  backdrop-filter: blur(2px); 
+  z-index: 1; /* Ensure it appears above the image 
+}
+
+/* Scale image slightly when hovered 
+.imageright:hover img {
+  transform: scale(1.05); /* Slightly enlarge the image 
+}
+
+/* Change cursor to dot on hover
+.imageright:hover {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="black" viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/></svg>') 5 5, auto; 
+} */
+
+
+.imageright {
+  position: relative;
+  overflow: hidden; /* Ensure the hover image doesn't overflow */
+}
+
+.normalimage,
+.hover-image {
+  width: 100%;
+  height: auto;
+  position: absolute; /* Position both images on top of each other */
+  top: 0;
+  left: 0;
+  transition: opacity 0.5s ease-in-out; /* Smooth opacity transition */
+}
+
+/* Initially, the hover image is hidden */
+.hover-image {
+  opacity: 0; /* Hidden by default */
+}
+
+/* Show hover image on hover */
+.imageright:hover .normal-image {
+  opacity: 0; /* Fade out normal image */
+}
+
+.imageright:hover .hover-image {
+  opacity: 1; /* Fade in hover image */
+}
+
+/* Change cursor to dot on hover */
+.imageright:hover {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black" viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/></svg>') 5 5, auto; /* Custom cursor */
+}
+
+/* General styling for all images */
+.image-left img, .image-right img {
+  width: 100%;
+  height: auto;
+  transition: all 0.8s cubic-bezier(0.25, 1, 0.5, 1); /* Smoother, default smooth transition */
+}
+
+/* Animation for imageRight1 - Zoom In */
+.image-right img:nth-of-type(1):hover {
+  transform: scale(1.1); /* Slight zoom-in effect */
+}
+
+/* Animation for imageRight2 - Rotate */
+.image-right img:nth-of-type(2):hover {
+  transform: rotate(10deg); /* Slight rotation */
+}
+
+/* Animation for imageLeft1 - Smooth Flip */
+.image-left img:nth-of-type(1):hover {
+  transform: rotateY(180deg); /* Flip effect on the Y-axis */
+  transition: transform 1s cubic-bezier(0.25, 1, 0.5, 1); /* Smooth flip effect with easing */
+}
+
+/* Animation for imageLeft2 - Smooth Slide */
+.image-left img:nth-of-type(2):hover {
+  transform: translateX(20px); /* Slight horizontal slide */
+  transition: transform 1s cubic-bezier(0.25, 1, 0.5, 1); /* Smooth slide effect with easing */
+}
+
+/* Keeping the hover effect we added earlier for the last image */
+.imageright {
+  position: relative;
+  overflow: hidden;
+}
+
+.normalimage,
+.hover-image {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.hover-image {
+  opacity: 0;
+}
+
+.imageright:hover .normal-image {
+  opacity: 0;
+}
+
+.imageright:hover .hover-image {
+  opacity: 1;
+}
+
+/* Custom cursor effect for the last image */
+.imageright:hover {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black" viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/></svg>') 5 5, auto;
+}
+
+.btn-flip {
+  opacity: 1;
+  outline: 0;
+  color: #fff;
+  line-height: 60px; /* Adjusted to match the button height */
+  position: relative;
+  text-align: center;
+  font-size: small;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  display: inline-block;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif; /* Ensure a fallback font */
+  text-transform: uppercase;
+  width: 180px; /* Match the button width */
+  height: 30px; /* Match the button height */
+  border: 1px solid #91caff00; /*Keep the border color consistent */
+  background: transparent; /* Make background transparent */
+  cursor: pointer; /* Change cursor to pointer */
+}
+
+.btn-flip:hover:after {
+  opacity: 1;
+  transform: translateY(0) rotateX(0);
+}
+
+.btn-flip:hover:before {
+  opacity: 0;
+  transform: translateY(50%) rotateX(90deg);
+}
+
+.btn-flip:after {
+  top: 0;
+  left: 0;
+  opacity: 0;
+  width: 100%;
+  color: #dedee2;
+  display: block;
+  transition: opacity 0.5s, transform 0.5s; /* Added transform transition */
+  position: absolute;
+  background: #a58a5b; /* Background color for back side */
+  content: attr(data-back); /* Content for the back */
+  transform: translateY(-50%) rotateX(90deg);
+  line-height: 30px; /* Match the button height */
+}
+
+.btn-flip:before {
+  top: 0;
+  left: 0;
+  opacity: 1;
+  color: #f5f2f2;
+  display: block;
+  padding: 0 30px;
+  line-height: 30px; /* Match the button height */
+  transition: opacity 0.5s, transform 0.5s; /* Added transform transition */
+  position: relative;
+  background: #5c5c5f; /* Background color for front side */
+  content: attr(data-front); /* Content for the front */
+  transform: translateY(0) rotateX(0);
+}
+

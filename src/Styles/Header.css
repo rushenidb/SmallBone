@@ -1,0 +1,93 @@
+/* Base styles for the header */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: 20px 40px;
+    transition: background-color 0.8s ease, height 0.4s ease; /* Smooth transition for background color */
+    background-color: rgba(0, 0, 0, 0); /* Fully transparent initially */
+    height: 150px; /* Default height */
+}
+
+body.modal-open {
+    overflow: hidden; /* Prevent scrolling when modal is active */
+}
+
+/* Header styles when scrolled */
+.header.scrolled {
+    background-color: rgba(0, 0, 0, 1); /* Fully opaque black when scrolled */
+    height: 80px; /* Reduces height when scrolled */
+}
+
+/* Navbar styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%; /* Full height of the header */
+    color: white;
+}
+
+/* Left section (menu, home button) */
+.nav-left .menu-icon,
+.nav-left .home-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.nav-left span {
+    margin: 0 10px;
+}
+
+/* Middle section (logo and text) */
+.nav-middle {
+    display: flex;
+    align-items: center;
+}
+
+.logo-image {
+    width: 60px; /* Adjust size */
+    height: auto;
+    margin-right: 10px; /* Space between logo and text */
+}
+
+.logo-text {
+    font-size: 28px;
+    font-weight: 500;
+    color: #c8a974; /* Gold-like color */
+}
+
+/* Right section (buttons) */
+.nav-right .nav-button {
+    background: none;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin-left: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: color 0.3s, border-color 0.3s;
+}
+
+.nav-right .special {
+    border: 1px solid white;
+}
+
+.nav-right .special:hover,
+.nav-right .contact:hover {
+    color: #c8a974;
+    border-color: #c8a974;
+}
+
+/* Ensure body has enough content to scroll*/
+body {
+    margin: 0;
+    /* padding-top: 140px; Push content down to make room for the fixed header  */
+    min-height: 200vh; /*Enough height to test scrolling */
+ }  
