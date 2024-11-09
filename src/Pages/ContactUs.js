@@ -36,8 +36,8 @@ export default function ContactUs() {
         <section className="contact-section">
           <h2>New Enquiries</h2>
           <p>
-            To find out more about Smallbone or to request a personal consultation with one of our designers, call the UK on <strong>+44 (0) 20 7589 5998</strong> or the US on <strong>+1 212 288 3494</strong>. Alternatively, please email us at
-            <a href="mailto:enquiries@smallbone.co.uk"> enquiries@smallbone.co.uk</a>
+          To learn more about Furnishings or to schedule a personal consultation with one of our expert designers, please call us in the UK on <strong>+44 (0) 20 1234 5678</strong> or in the US on <strong>+1 800 123 4567.</strong>. Alternatively, you can email us at
+            <a href="mailto: info@furnishings.com">  info@furnishings.com</a>
           </p>
           <button className="btn-brochure">Request a Brochure</button>
         </section>
@@ -46,8 +46,8 @@ export default function ContactUs() {
         <section className="contact-section">
           <h2>Existing Customers</h2>
           <p>
-            If you would like to contact our Customer Service team, please call <strong>+44 (0) 20 3370 8299</strong>. Alternatively, email us at
-            <a href="mailto:customer.services@luxgroupholdings.com"> customer.services@luxgroupholdings.com</a>.
+            If you would like to contact our Customer Service team, please call <strong>+44 (0) 20 1234 5678</strong>. Alternatively, email us at
+            <a href="mailto:customer.services@furnishings.com"> customer.services@furnishings.com</a>.
           </p>
           <p>Customer service opening hours are Monday to Friday 9am – 5:30pm (excluding bank holidays)</p>
         </section>
@@ -57,7 +57,7 @@ export default function ContactUs() {
           <h2>Press & Marketing</h2>
           <p>
             For all press requests and marketing enquiries, please contact:
-            <a href="mailto:samantha.clegg@luxgroupholdings.com"> samantha.clegg@luxgroupholdings.com</a>
+            <a href="mailto:theo.kensington@luxgroupholdings.com"> theo.kensington@luxgroupholdings.com</a>
           </p>
         </section>
       </div>
@@ -71,17 +71,17 @@ export default function ContactUs() {
         </div>
         <div className="right-section">
           <h2>Arrange a Design Meeting</h2>
-          <p>To request a meeting with a Smallbone designer, contact us on the details below or use our enquiry form.</p>
+          <p>To request a meeting with a furnishings designer, contact us on the details below or use our enquiry form.</p>
           <div className="contact-info">
             <div className="contact-item">
               <h3>UK</h3>
-              <p>+44 (0) 20 7589 5998</p>
-              <p>enquiries@smallbone.co.uk</p>
+              <p>+44 (0) 20 1234 5678</p>
+              <p>enquiries@furnishings.co.uk</p>
             </div>
             <div className="contact-item">
               <h3>US</h3>
-              <p>+1 212 288 3494</p>
-              <p>govirtual@smallboneusa.com</p>
+              <p>+1 800 123 4567</p>
+              <p>govirtual@furnishingsusa.com</p>
             </div>
           </div>
           <button className="design-meeting-button">Arrange a Design Meeting</button>
@@ -91,17 +91,18 @@ export default function ContactUs() {
       <div className="design-meeting">
         <div className="right-section">
           <h2>Our Locations</h2>
-          <p>KNIGHTSBRIDGE STUDIO – BY PRIVATE APPOINTMENT 100 Brompton Road, Knightsbridge, London SW3 1E</p>
+          <p>KNIGHTSBRIDGE STUDIO – BY PRIVATE APPOINTMENT 200 Kensington High Street, London W8 7RG</p>
           <div className="contact-info">
             <div className="contact-item">
               <h5>DEVIZES WORKSHOP</h5>
-              <p>The Hopton Workshop, Devizes SN10 2EU</p>
-              <p>+44 (0)1380 729 090</p>
+              <p>The Oakwood Workshop, Somerset BA3 4RD</p>
+              <p>+44 (0)4576 274 121</p>
             </div>
             <div className="contact-item">
               <h5>NEW YORK MADISON AVENUE SHOWROOM – OPENING SOON</h5>
-              <p>88 Madison Avenue, New York, New York, 10005</p>
-              <p>+1 212 288 3494</p>
+              <p>
+              120 Hudson Street, New York, NY 10013</p>
+              <p>+1 245 327 30124</p>
             </div>
           </div>
         </div>
@@ -134,8 +135,8 @@ export default function ContactUs() {
           </div>
         </div>
         <div className="right-section">
-          <h2>Careers at Smallbone</h2>
-          <p>Smallbone is always seeking the most talented designers, installation managers, and technical assistants with exceptional CAD skills. To find out more, please send your resume with a covering letter to careers@smallbone.co.uk</p>
+          <h2>Careers at furnishings</h2>
+          <p>Furnishings is always seeking the most talented designers, installation managers, and technical assistants with exceptional CAD skills. To find out more, please send your resume with a covering letter to careers@furnishings.co.uk</p>
           <div className="contact-info">
             <button className="career-btn">Apply now</button>
           </div>

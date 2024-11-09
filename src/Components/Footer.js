@@ -9,7 +9,7 @@ const Footer = () => {
         <footer className="footer">
             <hr className='hr'/>
             <div className="footer-signup">
-                <p className="signup-text">Sign-up to receive news from Smallbone</p>
+                <p className="signup-text">Sign-up to receive news from Furnishings</p>
                 <form>
                     <input type="text" placeholder="First Name *" required />
                     <input type="text" placeholder="Surname *" required />
@@ -39,8 +39,8 @@ const Footer = () => {
             <hr/>
             <br />
             <div className="footer-links">
-                © 2024 Smallbone
-                <a href="/shop">Smallbone Shop</a>
+                © 2024 Furnishings
+                <a href="/shop">Furnishings Shop</a>
                 <a href="/privacy">Privacy Policy</a>
                 <a href="/design">Design & Copyright</a>
                 <a href="/disability">Disability Discrimination Policy</a>

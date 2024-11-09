@@ -38,7 +38,7 @@ export default function Home() {
       </div>
 
       <div className="centered-text">
-        <p>At Smallbone, we make bespoke kitchens and furniture like no other. A showcase of time-honoured British design and craftsmanship, we have been at the forefront of luxury, artisanal cabinetry for more than 40 years. Handmade in the heart of Wiltshire, our award-winning designs have revolutionised the home and pioneered an inspirational new way of living that is celebrated throughout the world.</p>
+        <p>At Furnishings, we craft custom-made furniture and interiors that blend elegance with practicality. Our designs embody a dedication to quality, inspired by timeless styles and refined craftsmanship. Each piece is carefully handmade, showcasing our commitment to comfort, beauty, and functionality. Furnishings reimagines living spaces with pieces that elevate your home, creating environments that are both inviting and inspiring.</p>
       </div>
 
       <div>
@@ -64,9 +64,9 @@ export default function Home() {
 
       <div className="section-image-right">
         <div className="text-left">
-            <h1>Jason Atherton</h1>
+            <h1>Jordan Ashford</h1>
             <br />
-          <p>We are delighted to announce, the renowned British chef and restaurateur as the new ambassador for Smallbone. Having built a reputation for his Michelin-starred restaurants and culinary expertise, Jason is the perfect fit to represent our brand as we both share a commitment to quality, British heritage, handcrafted creativity and innovation.</p>
+          <p>We are thrilled to announce Jordan Ashford, the renowned British chef and restaurateur, as the new ambassador for Furnishings. With a distinguished career defined by culinary mastery and a passion for innovation, Jordan perfectly embodies our commitment to quality, craftsmanship, and timeless British design. Together, we celebrate the artistry of bespoke, handcrafted furniture, blending tradition with creativity. Jordan Ashford is the ideal partner to represent Furnishings as we continue to redefine elegant living spaces.</p>
         </div>
         <div className="image-right">
           <img src={imageRight1} alt="jason" />
@@ -80,11 +80,18 @@ export default function Home() {
         <div className="text-right">
             <h1> As an Ambassador </h1>
             <br />
-          <p>Jason will collaborate with us to promote our brand, integrating his culinary insight into an exclusively designed kitchen collection showcasing Smallbone’s versatility and appeal to those who value both luxury form and function. Additionally, Smallbone is partnering with Jason on his new flagship restaurant Row on 5 in Savile Row, an artisanal culinary experience. Smallbone will be involved in the design and manufacture of the restaurant’s kitchen, VIP area, and bespoke wood panelling, ensuring the space exemplifies our brand’s commitment to handcrafted artistry.</p>
+          <p>Jordan Ashford will collaborate with us to promote our brand, blending his culinary expertise with an exclusive kitchen collection designed to showcase Furnishings’ versatility and appeal. This collection will cater to those who appreciate the seamless integration of luxury, form, and function. In addition, Furnishings is proud to partner with Jordan on his new flagship restaurant, Row on 5 in Savile Row, offering an artisanal culinary experience. Furnishings will be responsible for designing and crafting the restaurant’s kitchen, VIP area, and bespoke wood paneling, ensuring the space reflects our commitment to exquisite craftsmanship.</p>
           <br />
-          <p>Jason Atherton comments: “The synergy between myself and Smalbone is really quite simple, we share deep-rooted values of British tradition, bespoke craftsmanship and a passion for beautiful kitchens. I look forward to both celebrating timeless design with functionality and creating the best partnership in the most prestigious street in Mayfair.”</p>
+          <p>Jordan Ashford comments: “The connection between myself and Furnishings is rooted in a shared appreciation for British tradition, bespoke artistry, and a passion for creating beautiful, functional kitchens. I am excited to celebrate timeless design and collaborate on this unique partnership in one of London’s most prestigious areas.”</p>
           <br />
-          <p>Ron Shemesh, CEO of Smallbone comments: “This collaboration exemplifies Smallbone’s dedication to crafting custom, high-end kitchens that cater to both professional chefs and luxury homeowners. We are excited to be working with Jason and his team the most renowned British culinary talent who has not only excelled in the UK but also achieved two Michelin stars internationally, this totally underscores the alignment of culinary mastery with luxury design. We will be bringing together the best of British craftsmanship, elevating the kitchen space into a functional and artistic domain.”</p>
+          <p>Dylan Fairfax, CEO of Furnishings, comments: “This partnership highlights our dedication to creating custom, high-end kitchens that serve both professional chefs and luxury homeowners. Working with Jordan, one of the UK’s most acclaimed culinary talents, is a testament to the alignment of culinary expertise and refined design. We look forward to combining the finest British craftsmanship, elevating the kitchen into both a functional and artistic masterpiece.”
+
+
+
+
+
+
+</p>
         
         </div>
       </div>
@@ -107,9 +114,9 @@ export default function Home() {
             <img src={imageLeft2} alt ="home" className='imageleft2' />
           </div>
         <div className="text-right-new">
-            <h1>A Smallbone Kitchen</h1>
+            <h1>A Furnishings Kitchen</h1>
             <br />
-          <p>Smallbone have been designing intelligent, impeccably crafted kitchens from our Devizes workshop for decades. A Smallbone kitchen is much more than a room in which to cook. A meticulously planned and handcrafted space created for living, relaxing, entertaining and dreaming, each is a close collaboration between designer and client, precisely tailored to your tastes and requirements from an almost infinite palette of materials and finishes. Explore our range of classic and contemporary luxury kitchens and discover what sets Smallbone apart.</p>
+          <p>Furnishings has been designing sophisticated, meticulously crafted kitchens for years, each one carefully created in our dedicated workshop. A Furnishings kitchen is more than just a place to cook—it’s a thoughtfully designed space for living, relaxing, entertaining, and dreaming. Every kitchen is the result of a close collaboration between our designers and clients, perfectly tailored to your unique tastes and needs, using a vast selection of materials and finishes. Explore our collection of timeless and modern luxury kitchens and experience what makes Furnishings truly exceptional.</p>
 <br />
                 <div className="button-container-new">
         <button>Learn more</button>
@@ -119,9 +126,9 @@ export default function Home() {
 
       <div className="section-image-right">
         <div className="text-right-new">
-            <h1> A Smallbone Home </h1>
+            <h1> A Furnishings Home </h1>
             <br />
-          <p>Our ethos extends to the bedroom, dressing room, bathroom, media room and home office – any conceivable room within the home. The epitome of luxury living, our whole-home furniture solutions combine the finest hand-craftsmanship and bespoke detailing with beautiful, original design and creative storage ideas. Each unique space is carefully considered and designed to harmonise perfectly with your lifestyle.</p>
+          <p>At Furnishings, our ethos extends beyond the kitchen to every room in your home, from the bedroom and dressing room to the bathroom, media room, and home office. We specialize in creating whole-home furniture solutions that blend exceptional craftsmanship with bespoke design and innovative storage ideas. Each space is thoughtfully crafted to reflect your personal style, ensuring seamless harmony with your lifestyle. Our commitment to luxury living and attention to detail makes every room an extraordinary experience.</p>
           <br />
           <div className="button-container-new">
         <button>Learn more</button>
